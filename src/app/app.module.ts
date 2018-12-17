@@ -2,10 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { CenteringElementComponent } from './centering-element/centering-element.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CenteringElementComponent,
   ],
   imports: [
     BrowserModule
