@@ -1,0 +1,15 @@
+.wrapper {
+    height: 200px;
+    width: 200px;
+    background: #93c5ee;
+    position: relative;
+    margin: auto;
+    transform: translateY(100%);
+
+    .central-element {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: auto;
+    }
+}

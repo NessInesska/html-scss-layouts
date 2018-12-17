@@ -1,16 +1,29 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { CenteringElementComponent } from './centering-element';
+import { appRoutes } from './app.routes';
+import { RouterService } from './services';
+import { DefaultPageComponent } from './default-page/default-page.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CenteringElementComponent,
+    DefaultPageComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(
+      appRoutes
+    ),
   ],
-  providers: [],
+  providers: [
+    RouterService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
