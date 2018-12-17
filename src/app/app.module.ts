@@ -3,17 +3,18 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { CenteringElementComponent } from './centering-element';
+import { CenteringElementComponent } from './pages/centering-element';
 import { appRoutes } from './app.routes';
 import { RouterService } from './services';
-import { DefaultPageComponent } from './default-page/default-page.component';
-
+import { DefaultPageComponent } from './pages/default-page';
+import { ThreeColumnsFloatComponent } from './pages/three-columns-float';
 
 @NgModule({
   declarations: [
     AppComponent,
     CenteringElementComponent,
     DefaultPageComponent,
+    ThreeColumnsFloatComponent,
   ],
   imports: [
     BrowserModule,

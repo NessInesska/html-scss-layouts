@@ -11,4 +11,8 @@ export class RouterService {
   public goToCeneringPage(): Promise<boolean> {
     return this.router.navigate(['/center']);
   }
+
+  public goToTheeColumnsFloatPage(): Promise<boolean> {
+    return this.router.navigate(['/three-float']);
+  }
 }

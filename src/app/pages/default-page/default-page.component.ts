@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { RouterService } from '../services';
+import { RouterService } from '../../services';
 
 @Component({
   selector: 'app-default-page',
@@ -13,5 +13,9 @@ export class DefaultPageComponent {
 
   public goToCenteringPage(): void {
     this.routerService.goToCeneringPage();
+  }
+
+  public goToTheeColumnsFloatPage(): void {
+    this.routerService.goToTheeColumnsFloatPage();
   }
 }
