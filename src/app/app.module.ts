@@ -10,6 +10,7 @@ import { RouterService } from './services';
 import { DefaultPageComponent } from './pages/default-page';
 import { ThreeColumnsFloatComponent } from './pages/three-columns-float';
 import { BoxSizingModelComponent } from './pages/box-sizing-model';
+import { MarginCollapseComponent } from './pages/margin-collapse/margin-collapse.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { BoxSizingModelComponent } from './pages/box-sizing-model';
     DefaultPageComponent,
     ThreeColumnsFloatComponent,
     BoxSizingModelComponent,
+    MarginCollapseComponent,
   ],
   imports: [
     BrowserModule,

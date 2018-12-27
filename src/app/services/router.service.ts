@@ -19,4 +19,8 @@ export class RouterService {
   public goToBoxSizingModelPage(): Promise<boolean> {
     return this.router.navigate(['/box-sizing-model']);
   }
+
+  public goToMarginCollapsePage(): Promise<boolean> {
+    return this.router.navigate(['/margins-collapse']);
+  }
 }

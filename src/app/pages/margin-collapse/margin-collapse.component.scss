@@ -1,0 +1,25 @@
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.gray-box {
+  background: gainsboro;
+  margin-bottom: 10px; //margin between gray and blue box will be 20px
+}
+
+.blue-box {
+  background: #93c5ee;
+  margin-top: 20px;
+  margin-bottom: 40px; //margin between blue and red box will be 30px
+}
+
+.red-box {
+  background: indianred;
+  margin-top: -10px;
+  margin-bottom: -10em; //pink box will overlay red box on 10em
+}
+
+.pink-box {
+  background: pink;
+}
