@@ -15,4 +15,8 @@ export class RouterService {
   public goToTheeColumnsFloatPage(): Promise<boolean> {
     return this.router.navigate(['/three-float']);
   }
+
+  public goToBoxSizingModelPage(): Promise<boolean> {
+    return this.router.navigate(['/box-sizing-model']);
+  }
 }
