@@ -18,4 +18,8 @@ export class DefaultPageComponent {
   public goToTheeColumnsFloatPage(): void {
     this.routerService.goToTheeColumnsFloatPage();
   }
+
+  public goToBoxSizingModelPage(): void {
+    this.routerService.goToBoxSizingModelPage();
+  }
 }
