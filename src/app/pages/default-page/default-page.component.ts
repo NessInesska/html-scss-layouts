@@ -22,4 +22,8 @@ export class DefaultPageComponent {
   public goToBoxSizingModelPage(): void {
     this.routerService.goToBoxSizingModelPage();
   }
+
+  public goToMarginCollapsePage(): void {
+    this.routerService.goToMarginCollapsePage();
+  }
 }
