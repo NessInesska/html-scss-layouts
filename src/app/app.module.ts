@@ -4,14 +4,16 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { CenteringElementComponent } from './pages/centering-element';
 import { appRoutes } from './app.routes';
 import { RouterService } from './services';
-import { DefaultPageComponent } from './pages/default-page';
-import { ThreeColumnsFloatComponent } from './pages/three-columns-float';
-import { BoxSizingModelComponent } from './pages/box-sizing-model';
-import { MarginCollapseComponent } from './pages/margin-collapse/margin-collapse.component';
-import { FlexboxComponent } from './pages/flexbox/flexbox.component';
+import {
+  BoxSizingModelComponent,
+  CenteringElementComponent,
+  DefaultPageComponent,
+  ThreeColumnsFloatComponent,
+  MarginCollapseComponent,
+  FlexboxComponent,
+} from './pages';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { FlexboxComponent } from './pages/flexbox/flexbox.component';
   providers: [
     RouterService,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }
