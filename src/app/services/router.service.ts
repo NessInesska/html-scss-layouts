@@ -6,25 +6,30 @@ import { Router } from '@angular/router';
 })
 export class RouterService {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+  }
 
   public goToCeneringPage(): Promise<boolean> {
-    return this.router.navigate(['/center']);
+    return this.router.navigate([ '/center' ]);
   }
 
   public goToTheeColumnsFloatPage(): Promise<boolean> {
-    return this.router.navigate(['/three-float']);
+    return this.router.navigate([ '/three-float' ]);
   }
 
   public goToBoxSizingModelPage(): Promise<boolean> {
-    return this.router.navigate(['/box-sizing-model']);
+    return this.router.navigate([ '/box-sizing-model' ]);
   }
 
   public goToMarginCollapsePage(): Promise<boolean> {
-    return this.router.navigate(['/margins-collapse']);
+    return this.router.navigate([ '/margins-collapse' ]);
   }
 
   public goToFlexboxPage(): Promise<boolean> {
-    return this.router.navigate(['/flexbox']);
+    return this.router.navigate([ '/flexbox' ]);
+  }
+
+  public goToUniversalAttributesPage(): Promise<boolean> {
+    return this.router.navigate([ '/attributes' ]);
   }
 }

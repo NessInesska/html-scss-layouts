@@ -14,6 +14,7 @@ import {
   MarginCollapseComponent,
   FlexboxComponent,
 } from './pages';
+import { UniversalAttributesComponent } from './pages/universal-attributes/universal-attributes.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import {
     BoxSizingModelComponent,
     MarginCollapseComponent,
     FlexboxComponent,
+    UniversalAttributesComponent,
   ],
   imports: [
     BrowserModule,

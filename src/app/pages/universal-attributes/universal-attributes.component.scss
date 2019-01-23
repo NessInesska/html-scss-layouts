@@ -1,0 +1,18 @@
+@import '../../styles/colors';
+
+.direction-wrapper {
+  width: 200px;
+  background: $gray;
+}
+
+.drag-wrapper {
+  width: 300px;
+  height: 70px;
+  .drag-element-true {
+    background: $pink;
+  }
+
+  .drag-element-false {
+    background: $light-blue;
+  }
+}
