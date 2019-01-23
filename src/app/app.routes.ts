@@ -7,6 +7,7 @@ import {
   CenteringElementComponent,
   DefaultPageComponent,
   ThreeColumnsFloatComponent,
+  UniversalAttributesComponent,
 } from './pages';
 
 export const appRoutes: Routes = [
@@ -16,5 +17,6 @@ export const appRoutes: Routes = [
   { path: 'box-sizing-model', component: BoxSizingModelComponent },
   { path: 'margins-collapse', component: MarginCollapseComponent },
   { path: 'flexbox', component: FlexboxComponent },
+  { path: 'attributes', component: UniversalAttributesComponent },
   { path: '**', redirectTo: '/default' },
 ];

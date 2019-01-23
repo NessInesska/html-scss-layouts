@@ -30,4 +30,8 @@ export class DefaultPageComponent {
   public goToFlexboxPage(): void {
     this.routerService.goToFlexboxPage();
   }
+
+  public goToUniversalAttributesPage(): void {
+    this.routerService.goToUniversalAttributesPage();
+  }
 }
