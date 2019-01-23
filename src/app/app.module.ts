@@ -11,6 +11,7 @@ import { DefaultPageComponent } from './pages/default-page';
 import { ThreeColumnsFloatComponent } from './pages/three-columns-float';
 import { BoxSizingModelComponent } from './pages/box-sizing-model';
 import { MarginCollapseComponent } from './pages/margin-collapse/margin-collapse.component';
+import { FlexboxComponent } from './pages/flexbox/flexbox.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MarginCollapseComponent } from './pages/margin-collapse/margin-collapse
     ThreeColumnsFloatComponent,
     BoxSizingModelComponent,
     MarginCollapseComponent,
+    FlexboxComponent,
   ],
   imports: [
     BrowserModule,
