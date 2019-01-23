@@ -15,6 +15,7 @@ import {
   FlexboxComponent,
 } from './pages';
 import { UniversalAttributesComponent } from './pages/universal-attributes/universal-attributes.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { UniversalAttributesComponent } from './pages/universal-attributes/unive
     MarginCollapseComponent,
     FlexboxComponent,
     UniversalAttributesComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

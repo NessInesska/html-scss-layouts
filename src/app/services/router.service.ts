@@ -9,6 +9,10 @@ export class RouterService {
   constructor(private router: Router) {
   }
 
+  public goToDefaultPage(): Promise<boolean>{
+    return this.router.navigate(['/default']);
+  }
+
   public goToCeneringPage(): Promise<boolean> {
     return this.router.navigate([ '/center' ]);
   }
