@@ -1,0 +1,24 @@
+@import '../../styles/colors';
+@import '~flexboxgrid';
+
+.header {
+  display: flex;
+  height: 70px;
+  width: 100vw;
+  margin: 0;
+  background: $flexbox-page-item-blue;
+  color: $white;
+  align-items: center;
+
+  .header-text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    height: 50px;
+    align-items: center;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
