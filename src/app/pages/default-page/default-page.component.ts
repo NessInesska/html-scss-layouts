@@ -34,4 +34,8 @@ export class DefaultPageComponent {
   public goToUniversalAttributesPage(): void {
     this.routerService.goToUniversalAttributesPage();
   }
+
+  public goToHTML5AttributesPage(): void {
+    this.routerService.goToHTML5AttributesPage();
+  }
 }

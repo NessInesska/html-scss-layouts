@@ -13,9 +13,10 @@ import {
   ThreeColumnsFloatComponent,
   MarginCollapseComponent,
   FlexboxComponent,
+  UniversalAttributesComponent,
+  Html5NewTagsComponent,
 } from './pages';
-import { UniversalAttributesComponent } from './pages/universal-attributes/universal-attributes.component';
-import { HeaderComponent } from './components/header/header.component';
+import { HeaderComponent } from './components/header';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { HeaderComponent } from './components/header/header.component';
     FlexboxComponent,
     UniversalAttributesComponent,
     HeaderComponent,
+    Html5NewTagsComponent,
   ],
   imports: [
     BrowserModule,

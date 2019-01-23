@@ -36,4 +36,8 @@ export class RouterService {
   public goToUniversalAttributesPage(): Promise<boolean> {
     return this.router.navigate([ '/attributes' ]);
   }
+
+  public goToHTML5AttributesPage(): Promise<boolean> {
+    return this.router.navigate(['/html5-attrs']);
+  }
 }

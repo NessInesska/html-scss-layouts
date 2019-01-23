@@ -8,6 +8,7 @@ import {
   DefaultPageComponent,
   ThreeColumnsFloatComponent,
   UniversalAttributesComponent,
+  Html5NewTagsComponent,
 } from './pages';
 
 export const appRoutes: Routes = [
@@ -18,5 +19,6 @@ export const appRoutes: Routes = [
   { path: 'margins-collapse', component: MarginCollapseComponent },
   { path: 'flexbox', component: FlexboxComponent },
   { path: 'attributes', component: UniversalAttributesComponent },
+  { path: 'html5-attrs', component: Html5NewTagsComponent },
   { path: '**', redirectTo: '/default' },
 ];
