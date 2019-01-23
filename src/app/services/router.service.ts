@@ -23,4 +23,8 @@ export class RouterService {
   public goToMarginCollapsePage(): Promise<boolean> {
     return this.router.navigate(['/margins-collapse']);
   }
+
+  public goToFlexboxPage(): Promise<boolean> {
+    return this.router.navigate(['/flexbox']);
+  }
 }

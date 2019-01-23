@@ -26,4 +26,8 @@ export class DefaultPageComponent {
   public goToMarginCollapsePage(): void {
     this.routerService.goToMarginCollapsePage();
   }
+
+  public goToFlexboxPage(): void {
+    this.routerService.goToFlexboxPage();
+  }
 }
